@@ -8610,6 +8610,58 @@ importers:
         specifier: ^7.3.1
         version: 7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
 
+  examples/react/start-descope:
+    dependencies:
+      '@descope/node-sdk':
+        specifier: ^1.9.1
+        version: 1.9.1(encoding@0.1.13)
+      '@descope/react-sdk':
+        specifier: ^2.26.4
+        version: 2.26.5(@reduxjs/toolkit@2.11.2(react@19.2.3))(@types/react@19.2.8)(immer@11.1.4)(react@19.2.3)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@tanstack/react-router':
+        specifier: workspace:*
+        version: link:../../../packages/react-router
+      '@tanstack/react-start':
+        specifier: workspace:*
+        version: link:../../../packages/react-start
+      '@vitejs/plugin-react':
+        specifier: ^4.3.4
+        version: 4.7.0(vite@7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
+      react:
+        specifier: ^19.2.3
+        version: 19.2.3
+      react-dom:
+        specifier: ^19.2.3
+        version: 19.2.3(react@19.2.3)
+      srvx:
+        specifier: ^0.11.2
+        version: 0.11.2
+      tailwind-merge:
+        specifier: ^2.6.0
+        version: 2.6.0
+    devDependencies:
+      '@tailwindcss/vite':
+        specifier: ^4.1.18
+        version: 4.1.18(vite@7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
+      '@types/node':
+        specifier: 25.0.9
+        version: 25.0.9
+      '@types/react':
+        specifier: ^19.2.8
+        version: 19.2.8
+      tailwindcss:
+        specifier: ^4.1.18
+        version: 4.1.18
+      typescript:
+        specifier: ^5.7.2
+        version: 5.9.3
+      vite:
+        specifier: ^7.3.1
+        version: 7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
+      vite-tsconfig-paths:
+        specifier: ^5.1.4
+        version: 5.1.4(typescript@5.9.3)(vite@7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
+
   examples/react/start-i18n-paraglide:
     dependencies:
       '@tanstack/react-devtools':
@@ -10715,7 +10767,7 @@ importers:
     devDependencies:
       '@netlify/vite-plugin-tanstack-start':
         specifier: ^1.1.4
-        version: 1.1.4(@tanstack/solid-start@packages+solid-start)(babel-plugin-macros@3.1.0)(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(encoding@0.1.13)(ioredis@5.9.2)(rollup@4.55.3)(vite@7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
+        version: 1.1.4(@tanstack/solid-start@packages+solid-start)(babel-plugin-macros@3.1.0)(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(ioredis@5.9.2)(rollup@4.55.3)(vite@7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tailwindcss/vite':
         specifier: ^4.1.18
         version: 4.1.18(vite@7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
@@ -13216,6 +13268,69 @@ packages:
     resolution: {integrity: sha512-Y6+WUMsTFWE5jb20IFP4YGa5IrGY/+a/FbOSjDF/wz9gepU2hwCYSXRHP/vPwBvwcY3SVMASt4yXxbXNXigmZQ==}
     engines: {node: '>=18'}
 
+  '@descope/access-key-management-widget@0.5.34':
+    resolution: {integrity: sha512-TV48MxD7qaL0Or8D//mmUYl+uUSz6rEPBNoeOceW5wKIzouuZ4HffH1lGqhM4GDf4uz4iH1mYlxwreyOyeAYwg==}
+
+  '@descope/applications-portal-widget@0.5.17':
+    resolution: {integrity: sha512-gVDqm1IyJ/WpxVdva1aMe+t2m9gS9/sNVOr04saHp+U2LyzQgMmK7bH6swrybCL0lytJbzzadzD0R2PxW2HQ6g==}
+
+  '@descope/audit-management-widget@0.5.34':
+    resolution: {integrity: sha512-rBHRsL7FTc0RZAMJzukasE+YePcVp0NuHBeY9NHqykz9FJw0hXdxuvEKyV4lxWSTM+20DJ0Hn1j/LS7ixe2WoQ==}
+
+  '@descope/core-js-sdk@2.56.1':
+    resolution: {integrity: sha512-YiMO7Mi8pZw1s9oxVyKPSifsyhGlnhf+iWzKEuH8xiZcqAR1ZwDTTqXP5X8s9Wm/Xly7/s0l7RqoDEsQu/GDKw==}
+
+  '@descope/core-js-sdk@2.57.0':
+    resolution: {integrity: sha512-dNvmlyz81VNqmZ699GdhucXQD15kaX3by9086bGR6zWHHVlsenHxW9kDpLoKPoWsKkXxvUq0Ysh9bi+6+A4LyQ==}
+
+  '@descope/escape-markdown@0.1.6':
+    resolution: {integrity: sha512-3ENrye8fyyAp88w8OoKGsEl/kH0GgcrPiDRoOajhCODOJnoJ8P/4/giBEjWZV/FKllW4Z5mSXGACEmlINOZLCA==}
+
+  '@descope/node-sdk@1.9.1':
+    resolution: {integrity: sha512-Nw+wJ4/tVU/hgecXhpNhWFAch2BdvHcDt3isrp6Ja6MCen1XwSQayMAFIm6vqk6tCLernNKhdJZgLVPt1tNC5w==}
+    engines: {node: '>= 16.0.0'}
+
+  '@descope/outbound-applications-widget@0.2.21':
+    resolution: {integrity: sha512-SewlMaV7LEF3Vkx1/4/Lx3mG2qoRRC/daA41ifoRzYXETS4Yy3WILFq3/6Up7TWA9JQuyFbenoe/8bEeiMgdfA==}
+
+  '@descope/react-sdk@2.26.5':
+    resolution: {integrity: sha512-NzxKP9iqBGfjQOR6T2MPaX/7/qKvwPnrRNy86qCN6YIK0ZbDba9dPYK+V/mIBoVVdSqphTM4BBlOnAzf8kentQ==}
+    peerDependencies:
+      '@types/react': ^19.2.8
+      react: ^19.2.3
+
+  '@descope/role-management-widget@0.5.26':
+    resolution: {integrity: sha512-P1iTkJdSx8h7t0NTcT3vO7m8TikdfyQw0O9oI/TdXETdmwmDhletuA47QbB1TuEd16BYVPS7Y73xDzGRWx/XCQ==}
+
+  '@descope/sdk-component-drivers@0.9.0':
+    resolution: {integrity: sha512-BYvIQd66vmyXM+uPePGZALIKqaCInrLh++XKiL1xHFjJgd7PQ+74nXkYE2r+VVteXFk0HpVNI7zBx6iejirJwg==}
+
+  '@descope/sdk-helpers@0.6.0':
+    resolution: {integrity: sha512-0zoIYnGJsJCYcMXdQOWp5j1KUgQfcosoDEtiGMsr4PlQCbWpLme4Ma+OY6DJ/BsMbuFcpbSMzvi2tJyVnMQF1w==}
+
+  '@descope/sdk-mixins@0.15.1':
+    resolution: {integrity: sha512-laEvMkZLNgqY/F6eqyMpbv1emPIJ1vGyp2GUAgX6of4yEJIG6XW7jBxXiw9lCQAvqLM57BcSYK8sBqq/EjdnLA==}
+    peerDependencies:
+      '@reduxjs/toolkit': ^2.0.1
+      immer: ^10.0.3
+      redux: 5.0.1
+      redux-thunk: 3.1.0
+
+  '@descope/tenant-profile-widget@0.5.21':
+    resolution: {integrity: sha512-lkrWZ3Uphe0zTXG8NfpiAOpi0O9ZPPW2q4TV/L/U5ZV4Fucpnm8HXmWNuaW6mNoEcTOr6DfaFGdi6Q+L+QoQ+Q==}
+
+  '@descope/user-management-widget@0.11.10':
+    resolution: {integrity: sha512-PULNHx4n73wOFUnGlUSBLUh+Xkr76aEqU3BIYqiKf9e8qBct6A8TvWKS0kjd/JJD+UejP71B60cGA8R8ZQyvfw==}
+
+  '@descope/user-profile-widget@0.9.5':
+    resolution: {integrity: sha512-lNZqcNPArQQNrFLW42KSHzZ1VFIBXGQ/gUyP8UhlYegR3S93DEQI4E5Snzt3UokNaHk0sQxYi/DUT2YYCauSjA==}
+
+  '@descope/web-component@3.55.3':
+    resolution: {integrity: sha512-GUea6nsWuSmmI4XuTghA2W8MfNBajqGLd9u47S//qN5ElV7SjNcyUzKRY42qQixuq4jGYStmsWourLTpeXuxJQ==}
+
+  '@descope/web-js-sdk@1.45.0':
+    resolution: {integrity: sha512-Ptx6adEXRnc9TaC1Hdi6HvAovU6IVZGPtcY6TvijuksvPDW5rVSz5vjVmuJVgft4b9DdMDfoO0gk1M1EUjD6QA==}
+
   '@discoveryjs/json-ext@0.5.7':
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
     engines: {node: '>=10.0.0'}
@@ -14159,6 +14274,9 @@ packages:
 
   '@fastify/proxy-addr@5.1.0':
     resolution: {integrity: sha512-INS+6gh91cLUjB+PVHfu1UqcB76Sqtpyp7bnL+FYojhjygvOPA9ctiD/JDKsyD9Xgu4hUhCSJBPig/w7duNajw==}
+
+  '@fingerprintjs/fingerprintjs-pro@3.11.6':
+    resolution: {integrity: sha512-ohN4lorSzV0fzs8fELWuO3bvMMfzF5qyQSOWBvqwGaq6yPP+XSRJOeFdFFiwAqFWYJDEoDOlQluGfa0Rfk7mAQ==}
 
   '@firebase/analytics-compat@0.2.18':
     resolution: {integrity: sha512-Hw9mzsSMZaQu6wrTbi3kYYwGw9nBqOHr47pVLxfr5v8CalsdrG5gfs9XUlPOZjHRVISp3oQrh1j7d3E+ulHPjQ==}
@@ -16434,6 +16552,17 @@ packages:
       '@types/react-dom':
         optional: true
 
+  '@reduxjs/toolkit@2.11.2':
+    resolution: {integrity: sha512-Kd6kAHTA6/nUpp8mySPqj3en3dm0tdMIgbttnQ1xFMVpufoj+ADi8pXLBsd4xzTRHQa7t/Jv8W5UnCuW4kuWMQ==}
+    peerDependencies:
+      react: ^19.2.3
+      react-redux: ^7.2.1 || ^8.1.3 || ^9.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-redux:
+        optional: true
+
   '@remix-run/node-fetch-server@0.8.1':
     resolution: {integrity: sha512-J1dev372wtJqmqn9U/qbpbZxbJSQrogNN2+Qv1lKlpATpe/WQ9aCZfl/xSb9d2Rgh1IyLSvNxZAXPZxruO6Xig==}
 
@@ -17240,6 +17369,9 @@ packages:
 
   '@standard-schema/spec@1.0.0':
     resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
+
+  '@standard-schema/utils@0.3.0':
+    resolution: {integrity: sha512-e7Mew686owMaPJVNNLs55PUvgz371nKgwsc4vxE49zsODpJEnxgxRo2y/OKrqueavXgZNMDVj3DdHFlaSAeU8g==}
 
   '@stylistic/eslint-plugin@5.4.0':
     resolution: {integrity: sha512-UG8hdElzuBDzIbjG1QDwnYH0MQ73YLXDFHgZzB4Zh/YJfnw8XNsloVtytqzx0I2Qky9THSdpTmi8Vjn/pf/Lew==}
@@ -19401,6 +19533,9 @@ packages:
     engines: {node: '>=20'}
     hasBin: true
 
+  cross-fetch@4.1.0:
+    resolution: {integrity: sha512-uKm5PU+MHTootlWEY+mZ4vvXoCn4fLQxT9dSc1sXVMSFkINTJVN8cAQROpwcKm8bJ/c7rgZVIBWzH5T78sNZZw==}
+
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
@@ -20880,6 +21015,9 @@ packages:
   immer@10.1.1:
     resolution: {integrity: sha512-s2MPrmjovJcoMaHtx6K11Ra7oD05NT97w1IC5zpMkT6Atjr7H8LjaDd81iIxUYpMKSRRNMJE703M1Fhr/TctHw==}
 
+  immer@11.1.4:
+    resolution: {integrity: sha512-XREFCPo6ksxVzP4E0ekD5aMdf8WMwmdNaz6vuvxgI40UaEiu6q3p8X52aU6GdyvLY3XXX/8R7JOTXStz/nBbRw==}
+
   immutable@5.1.4:
     resolution: {integrity: sha512-p6u1bG3YSnINT5RQmx/yRZBpenIl30kVxkTLDyHLIMk0gict704Q9n+thfDI7lTRm9vXdDYutVzXhzcThxTnXA==}
 
@@ -21217,6 +21355,9 @@ packages:
   jju@1.4.0:
     resolution: {integrity: sha512-8wb9Yw966OSxApiCt0K3yNJL8pnNeIv+OEq2YMidz4FKP6nonSRoOXc80iXY4JaN2FC11B9qsNmDsm+ZOfMROA==}
 
+  jose@5.2.2:
+    resolution: {integrity: sha512-/WByRr4jDcsKlvMd1dRJnPfS1GVO3WuKyaurJ/vvXcOaUQO8rnNObCQMlv/5uCceVQIq5Q4WLF44ohsdiTohdg==}
+
   jose@6.1.0:
     resolution: {integrity: sha512-TTQJyoEoKcC1lscpVDCSsVgYzUDg/0Bt3WE//WiTPK6uOCQC2KZS4MpugbMWt/zyjkopgZoXhZuCi00gLudfUA==}
 
@@ -21410,6 +21551,9 @@ packages:
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
+
+  libphonenumber-js@1.11.17:
+    resolution: {integrity: sha512-Jr6v8thd5qRlOlc6CslSTzGzzQW03uiscab7KHQZX1Dfo4R6n6FDhZ0Hri6/X7edLIDv9gl4VMZXhxTjLnl0VQ==}
 
   libsql@0.3.19:
     resolution: {integrity: sha512-Aj5cQ5uk/6fHdmeW0TiXK42FqUlwx7ytmMLPSaUQPin5HKKKuUPD62MAbN4OEweGBBI7q1BekoEN4gPUEL6MZA==}
@@ -22865,6 +23009,14 @@ packages:
   reduce-configs@1.1.1:
     resolution: {integrity: sha512-EYtsVGAQarE8daT54cnaY1PIknF2VB78ug6Zre2rs36EsJfC40EG6hmTU2A2P1ZuXnKAt2KI0fzOGHcX7wzdPw==}
 
+  redux-thunk@3.1.0:
+    resolution: {integrity: sha512-NW2r5T6ksUKXCabzhL9z+h206HQw/NJkcLm1GPImRQ8IzfXwRGqjVhKJGauHirT0DAuyy6hjdnMZaRoAcy0Klw==}
+    peerDependencies:
+      redux: ^5.0.0
+
+  redux@5.0.1:
+    resolution: {integrity: sha512-M9/ELqF6fy8FwmkpnF0S3YKOqMyoWJ4+CS5Efg2ct3oY9daQvd/Pc71FpGZsVsbl3Cpb+IIcjBDUnnyBdQbq4w==}
+
   reflect-metadata@0.2.2:
     resolution: {integrity: sha512-urBwgfrvVP/eAyXx4hluJivBKzuEbSQs9rKWCrCkbSxNv8mxPcUZKeuoF3Uy4mJl3Lwprp6yy5/39VWigZ4K6Q==}
 
@@ -22917,6 +23069,9 @@ packages:
 
   requires-port@1.0.0:
     resolution: {integrity: sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==}
+
+  reselect@5.1.1:
+    resolution: {integrity: sha512-K/BG6eIky/SBpzfHZv/dd+9JBFiS4SWV7FIujVyJRux6e45+73RaUHXLmIR1f7WOMaQ0U1km6qwklRQxpJJY0w==}
 
   resolve-cwd@3.0.0:
     resolution: {integrity: sha512-OrZaX2Mb+rJCpH/6CpSqt9xFVpN++x01XnN2ie9g6P5/3xelLAkXWVADpdz1IHD/KFfEXyE6V0U01OQ3UO2rEg==}
@@ -25654,6 +25809,250 @@ snapshots:
       gonzales-pe: 4.3.0
       node-source-walk: 7.0.1
 
+  '@descope/access-key-management-widget@0.5.34(react@19.2.3)':
+    dependencies:
+      '@descope/sdk-component-drivers': 0.9.0
+      '@descope/sdk-helpers': 0.6.0
+      '@descope/sdk-mixins': 0.15.1(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-js-sdk': 1.45.0
+      '@reduxjs/toolkit': 2.11.2(react@19.2.3)
+      immer: 10.1.1
+      redux: 5.0.1
+      redux-thunk: 3.1.0(redux@5.0.1)
+      reselect: 5.1.1
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - react
+      - react-redux
+
+  '@descope/applications-portal-widget@0.5.17(react@19.2.3)':
+    dependencies:
+      '@descope/sdk-component-drivers': 0.9.0
+      '@descope/sdk-helpers': 0.6.0
+      '@descope/sdk-mixins': 0.15.1(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-js-sdk': 1.45.0
+      '@reduxjs/toolkit': 2.11.2(react@19.2.3)
+      immer: 10.1.1
+      redux: 5.0.1
+      redux-thunk: 3.1.0(redux@5.0.1)
+      reselect: 5.1.1
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - react
+      - react-redux
+
+  '@descope/audit-management-widget@0.5.34(react@19.2.3)':
+    dependencies:
+      '@descope/sdk-component-drivers': 0.9.0
+      '@descope/sdk-helpers': 0.6.0
+      '@descope/sdk-mixins': 0.15.1(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-js-sdk': 1.45.0
+      '@reduxjs/toolkit': 2.11.2(react@19.2.3)
+      immer: 10.1.1
+      redux: 5.0.1
+      redux-thunk: 3.1.0(redux@5.0.1)
+      reselect: 5.1.1
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - react
+      - react-redux
+
+  '@descope/core-js-sdk@2.56.1':
+    dependencies:
+      jwt-decode: 4.0.0
+
+  '@descope/core-js-sdk@2.57.0':
+    dependencies:
+      jwt-decode: 4.0.0
+
+  '@descope/escape-markdown@0.1.6': {}
+
+  '@descope/node-sdk@1.9.1(encoding@0.1.13)':
+    dependencies:
+      '@descope/core-js-sdk': 2.56.1
+      cross-fetch: 4.1.0(encoding@0.1.13)
+      jose: 5.2.2
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - encoding
+
+  '@descope/outbound-applications-widget@0.2.21(react@19.2.3)':
+    dependencies:
+      '@descope/sdk-component-drivers': 0.9.0
+      '@descope/sdk-helpers': 0.6.0
+      '@descope/sdk-mixins': 0.15.1(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-component': 3.55.3(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-js-sdk': 1.45.0
+      '@reduxjs/toolkit': 2.11.2(react@19.2.3)
+      immer: 10.1.1
+      redux: 5.0.1
+      redux-thunk: 3.1.0(redux@5.0.1)
+      reselect: 5.1.1
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - react
+      - react-redux
+
+  '@descope/react-sdk@2.26.5(@reduxjs/toolkit@2.11.2(react@19.2.3))(@types/react@19.2.8)(immer@11.1.4)(react@19.2.3)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)':
+    dependencies:
+      '@descope/access-key-management-widget': 0.5.34(react@19.2.3)
+      '@descope/applications-portal-widget': 0.5.17(react@19.2.3)
+      '@descope/audit-management-widget': 0.5.34(react@19.2.3)
+      '@descope/core-js-sdk': 2.57.0
+      '@descope/outbound-applications-widget': 0.2.21(react@19.2.3)
+      '@descope/role-management-widget': 0.5.26(react@19.2.3)
+      '@descope/sdk-helpers': 0.6.0
+      '@descope/tenant-profile-widget': 0.5.21(react@19.2.3)
+      '@descope/user-management-widget': 0.11.10(react@19.2.3)
+      '@descope/user-profile-widget': 0.9.5(react@19.2.3)
+      '@descope/web-component': 3.55.3(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@11.1.4)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-js-sdk': 1.45.0
+      '@types/react': 19.2.8
+      react: 19.2.3
+    transitivePeerDependencies:
+      - '@reduxjs/toolkit'
+      - immer
+      - react-redux
+      - redux
+      - redux-thunk
+
+  '@descope/role-management-widget@0.5.26(react@19.2.3)':
+    dependencies:
+      '@descope/sdk-component-drivers': 0.9.0
+      '@descope/sdk-helpers': 0.6.0
+      '@descope/sdk-mixins': 0.15.1(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-js-sdk': 1.45.0
+      '@reduxjs/toolkit': 2.11.2(react@19.2.3)
+      immer: 10.1.1
+      redux: 5.0.1
+      redux-thunk: 3.1.0(redux@5.0.1)
+      reselect: 5.1.1
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - react
+      - react-redux
+
+  '@descope/sdk-component-drivers@0.9.0':
+    dependencies:
+      '@descope/sdk-helpers': 0.6.0
+      tslib: 2.8.1
+
+  '@descope/sdk-helpers@0.6.0':
+    dependencies:
+      tslib: 2.8.1
+
+  '@descope/sdk-mixins@0.15.1(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)':
+    dependencies:
+      '@descope/sdk-component-drivers': 0.9.0
+      '@descope/sdk-helpers': 0.6.0
+      '@reduxjs/toolkit': 2.11.2(react@19.2.3)
+      immer: 10.1.1
+      redux: 5.0.1
+      redux-thunk: 3.1.0(redux@5.0.1)
+      tslib: 2.8.1
+
+  '@descope/sdk-mixins@0.15.1(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@11.1.4)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)':
+    dependencies:
+      '@descope/sdk-component-drivers': 0.9.0
+      '@descope/sdk-helpers': 0.6.0
+      '@reduxjs/toolkit': 2.11.2(react@19.2.3)
+      immer: 11.1.4
+      redux: 5.0.1
+      redux-thunk: 3.1.0(redux@5.0.1)
+      tslib: 2.8.1
+
+  '@descope/tenant-profile-widget@0.5.21(react@19.2.3)':
+    dependencies:
+      '@descope/sdk-component-drivers': 0.9.0
+      '@descope/sdk-helpers': 0.6.0
+      '@descope/sdk-mixins': 0.15.1(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-component': 3.55.3(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-js-sdk': 1.45.0
+      '@reduxjs/toolkit': 2.11.2(react@19.2.3)
+      immer: 10.1.1
+      redux: 5.0.1
+      redux-thunk: 3.1.0(redux@5.0.1)
+      reselect: 5.1.1
+      tslib: 2.8.1
+    optionalDependencies:
+      '@descope/core-js-sdk': 2.57.0
+    transitivePeerDependencies:
+      - react
+      - react-redux
+
+  '@descope/user-management-widget@0.11.10(react@19.2.3)':
+    dependencies:
+      '@descope/sdk-component-drivers': 0.9.0
+      '@descope/sdk-helpers': 0.6.0
+      '@descope/sdk-mixins': 0.15.1(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-component': 3.55.3(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-js-sdk': 1.45.0
+      '@reduxjs/toolkit': 2.11.2(react@19.2.3)
+      immer: 10.1.1
+      libphonenumber-js: 1.11.17
+      redux: 5.0.1
+      redux-thunk: 3.1.0(redux@5.0.1)
+      reselect: 5.1.1
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - react
+      - react-redux
+
+  '@descope/user-profile-widget@0.9.5(react@19.2.3)':
+    dependencies:
+      '@descope/sdk-component-drivers': 0.9.0
+      '@descope/sdk-helpers': 0.6.0
+      '@descope/sdk-mixins': 0.15.1(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-component': 3.55.3(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-js-sdk': 1.45.0
+      '@reduxjs/toolkit': 2.11.2(react@19.2.3)
+      immer: 10.1.1
+      redux: 5.0.1
+      redux-thunk: 3.1.0(redux@5.0.1)
+      reselect: 5.1.1
+      tslib: 2.8.1
+    optionalDependencies:
+      '@descope/core-js-sdk': 2.57.0
+    transitivePeerDependencies:
+      - react
+      - react-redux
+
+  '@descope/web-component@3.55.3(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)':
+    dependencies:
+      '@descope/escape-markdown': 0.1.6
+      '@descope/sdk-helpers': 0.6.0
+      '@descope/sdk-mixins': 0.15.1(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@10.1.1)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-js-sdk': 1.45.0
+      '@fingerprintjs/fingerprintjs-pro': 3.11.6
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - '@reduxjs/toolkit'
+      - immer
+      - redux
+      - redux-thunk
+
+  '@descope/web-component@3.55.3(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@11.1.4)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)':
+    dependencies:
+      '@descope/escape-markdown': 0.1.6
+      '@descope/sdk-helpers': 0.6.0
+      '@descope/sdk-mixins': 0.15.1(@reduxjs/toolkit@2.11.2(react@19.2.3))(immer@11.1.4)(redux-thunk@3.1.0(redux@5.0.1))(redux@5.0.1)
+      '@descope/web-js-sdk': 1.45.0
+      '@fingerprintjs/fingerprintjs-pro': 3.11.6
+      tslib: 2.8.1
+    transitivePeerDependencies:
+      - '@reduxjs/toolkit'
+      - immer
+      - redux
+      - redux-thunk
+
+  '@descope/web-js-sdk@1.45.0':
+    dependencies:
+      '@descope/core-js-sdk': 2.57.0
+      '@fingerprintjs/fingerprintjs-pro': 3.11.6
+      js-cookie: 3.0.5
+      jwt-decode: 4.0.0
+      tslib: 2.8.1
+
   '@discoveryjs/json-ext@0.5.7': {}
 
   '@electric-sql/pglite-socket@0.0.6(@electric-sql/pglite@0.3.2)':
@@ -26314,6 +26713,10 @@ snapshots:
     dependencies:
       '@fastify/forwarded': 3.0.1
       ipaddr.js: 2.2.0
+
+  '@fingerprintjs/fingerprintjs-pro@3.11.6':
+    dependencies:
+      tslib: 2.8.1
 
   '@firebase/analytics-compat@0.2.18(@firebase/app-compat@0.2.51)(@firebase/app@0.11.2)':
     dependencies:
@@ -27409,13 +27812,13 @@ snapshots:
       uuid: 11.1.0
       write-file-atomic: 5.0.1
 
-  '@netlify/dev@4.6.3(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(encoding@0.1.13)(ioredis@5.9.2)(rollup@4.55.3)':
+  '@netlify/dev@4.6.3(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(ioredis@5.9.2)(rollup@4.55.3)':
     dependencies:
       '@netlify/blobs': 10.1.0
       '@netlify/config': 23.2.0
       '@netlify/dev-utils': 4.3.0
       '@netlify/edge-functions-dev': 1.0.0
-      '@netlify/functions-dev': 1.0.0(encoding@0.1.13)(rollup@4.55.3)
+      '@netlify/functions-dev': 1.0.0(rollup@4.55.3)
       '@netlify/headers': 2.1.0
       '@netlify/images': 1.3.0(@netlify/blobs@10.1.0)(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(ioredis@5.9.2)
       '@netlify/redirects': 3.1.0
@@ -27483,12 +27886,12 @@ snapshots:
     dependencies:
       '@netlify/types': 2.1.0
 
-  '@netlify/functions-dev@1.0.0(encoding@0.1.13)(rollup@4.55.3)':
+  '@netlify/functions-dev@1.0.0(rollup@4.55.3)':
     dependencies:
       '@netlify/blobs': 10.1.0
       '@netlify/dev-utils': 4.3.0
       '@netlify/functions': 5.0.0
-      '@netlify/zip-it-and-ship-it': 14.1.11(encoding@0.1.13)(rollup@4.55.3)
+      '@netlify/zip-it-and-ship-it': 14.1.11(rollup@4.55.3)
       cron-parser: 4.9.0
       decache: 4.6.2
       extract-zip: 2.0.1
@@ -27578,9 +27981,9 @@ snapshots:
 
   '@netlify/types@2.1.0': {}
 
-  '@netlify/vite-plugin-tanstack-start@1.1.4(@tanstack/solid-start@packages+solid-start)(babel-plugin-macros@3.1.0)(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(encoding@0.1.13)(ioredis@5.9.2)(rollup@4.55.3)(vite@7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))':
+  '@netlify/vite-plugin-tanstack-start@1.1.4(@tanstack/solid-start@packages+solid-start)(babel-plugin-macros@3.1.0)(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(ioredis@5.9.2)(rollup@4.55.3)(vite@7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))':
     dependencies:
-      '@netlify/vite-plugin': 2.7.4(babel-plugin-macros@3.1.0)(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(encoding@0.1.13)(ioredis@5.9.2)(rollup@4.55.3)(vite@7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
+      '@netlify/vite-plugin': 2.7.4(babel-plugin-macros@3.1.0)(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(ioredis@5.9.2)(rollup@4.55.3)(vite@7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       vite: 7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
     optionalDependencies:
       '@tanstack/solid-start': link:packages/solid-start
@@ -27608,9 +28011,9 @@ snapshots:
       - supports-color
       - uploadthing
 
-  '@netlify/vite-plugin@2.7.4(babel-plugin-macros@3.1.0)(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(encoding@0.1.13)(ioredis@5.9.2)(rollup@4.55.3)(vite@7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))':
+  '@netlify/vite-plugin@2.7.4(babel-plugin-macros@3.1.0)(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(ioredis@5.9.2)(rollup@4.55.3)(vite@7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))':
     dependencies:
-      '@netlify/dev': 4.6.3(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(encoding@0.1.13)(ioredis@5.9.2)(rollup@4.55.3)
+      '@netlify/dev': 4.6.3(db0@0.3.4(@electric-sql/pglite@0.3.2)(@libsql/client@0.15.15)(mysql2@3.15.3))(ioredis@5.9.2)(rollup@4.55.3)
       '@netlify/dev-utils': 4.3.0
       dedent: 1.7.0(babel-plugin-macros@3.1.0)
       vite: 7.3.1(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
@@ -27638,13 +28041,13 @@ snapshots:
       - supports-color
       - uploadthing
 
-  '@netlify/zip-it-and-ship-it@14.1.11(encoding@0.1.13)(rollup@4.55.3)':
+  '@netlify/zip-it-and-ship-it@14.1.11(rollup@4.55.3)':
     dependencies:
       '@babel/parser': 7.28.5
       '@babel/types': 7.28.4
       '@netlify/binary-info': 1.0.0
       '@netlify/serverless-functions-api': 2.7.1
-      '@vercel/nft': 0.29.4(encoding@0.1.13)(rollup@4.55.3)
+      '@vercel/nft': 0.29.4(rollup@4.55.3)
       archiver: 7.0.1
       common-path-prefix: 3.0.0
       copy-file: 11.1.0
@@ -28930,6 +29333,17 @@ snapshots:
       '@types/react': 19.2.8
       '@types/react-dom': 19.2.3(@types/react@19.2.8)
 
+  '@reduxjs/toolkit@2.11.2(react@19.2.3)':
+    dependencies:
+      '@standard-schema/spec': 1.0.0
+      '@standard-schema/utils': 0.3.0
+      immer: 11.1.4
+      redux: 5.0.1
+      redux-thunk: 3.1.0(redux@5.0.1)
+      reselect: 5.1.1
+    optionalDependencies:
+      react: 19.2.3
+
   '@remix-run/node-fetch-server@0.8.1': {}
 
   '@rolldown/pluginutils@1.0.0-beta.19': {}
@@ -29687,6 +30101,8 @@ snapshots:
   '@stablelib/base64@1.0.1': {}
 
   '@standard-schema/spec@1.0.0': {}
+
+  '@standard-schema/utils@0.3.0': {}
 
   '@stylistic/eslint-plugin@5.4.0(eslint@9.22.0(jiti@2.6.1))':
     dependencies:
@@ -30851,7 +31267,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@vercel/nft@0.29.4(encoding@0.1.13)(rollup@4.55.3)':
+  '@vercel/nft@0.29.4(rollup@4.55.3)':
     dependencies:
       '@mapbox/node-pre-gyp': 2.0.0(encoding@0.1.13)
       '@rollup/pluginutils': 5.1.4(rollup@4.55.3)
@@ -32511,6 +32927,12 @@ snapshots:
     dependencies:
       '@epic-web/invariant': 1.0.0
       cross-spawn: 7.0.6
+
+  cross-fetch@4.1.0(encoding@0.1.13):
+    dependencies:
+      node-fetch: 2.7.0(encoding@0.1.13)
+    transitivePeerDependencies:
+      - encoding
 
   cross-spawn@7.0.6:
     dependencies:
@@ -34312,6 +34734,8 @@ snapshots:
 
   immer@10.1.1: {}
 
+  immer@11.1.4: {}
+
   immutable@5.1.4: {}
 
   import-fresh@3.3.0:
@@ -34631,6 +35055,8 @@ snapshots:
 
   jju@1.4.0: {}
 
+  jose@5.2.2: {}
+
   jose@6.1.0: {}
 
   jose@6.1.3: {}
@@ -34845,6 +35271,8 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
       type-check: 0.4.0
+
+  libphonenumber-js@1.11.17: {}
 
   libsql@0.3.19:
     dependencies:
@@ -36643,6 +37071,12 @@ snapshots:
 
   reduce-configs@1.1.1: {}
 
+  redux-thunk@3.1.0(redux@5.0.1):
+    dependencies:
+      redux: 5.0.1
+
+  redux@5.0.1: {}
+
   reflect-metadata@0.2.2: {}
 
   regenerator-runtime@0.14.1: {}
@@ -36691,6 +37125,8 @@ snapshots:
   require-package-name@2.0.1: {}
 
   requires-port@1.0.0: {}
+
+  reselect@5.1.1: {}
 
   resolve-cwd@3.0.0:
     dependencies:
